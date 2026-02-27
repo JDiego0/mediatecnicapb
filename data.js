@@ -35,7 +35,7 @@ const programas = {
         nombre: "Bello Horizonte",
         grados: [
           { grado: "10°", profesor: "Juan Camilo Pino", drive: "https://drive.google.com/drive/folders/1Rjzmu_aOh8XfrWSulbp3NQYIjSAuvTqj?usp=drive_link" },
-          { grado: "11°", profesor: "Sin Asignar", drive: "https://drive.google.com/drive/folders/1JA8gJ70gGOxR45z79lKSBh6JlXA6jy7O?usp=drive_link" }
+          { grado: "11°", profesor: "Mallely Cano Mira", drive: "https://drive.google.com/drive/folders/1JA8gJ70gGOxR45z79lKSBh6JlXA6jy7O?usp=drive_link" }
         ]
       },
       {
