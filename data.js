@@ -233,8 +233,8 @@ const programas = {
       {
         nombre: "Inem Jose Felix De Resrepo",
         grados: [
-          { grado: "10°", profesor: "David Zuliuaga Castrillon", drive: "https://drive.google.com/drive/folders/1GurGiMvdZ1Zi1lLEbstpSEMt_BC9MKAl?usp=drive_link" },
-          { grado: "11°", profesor: "David Zuliuaga Castrillon", drive: "https://drive.google.com/drive/folders/1_5zlo5oRHNIb4SHjAEmF6hfHLJWq32lc?usp=drive_link" }
+          { grado: "10°", profesor: "David Zuluaga Castrillon", drive: "https://drive.google.com/drive/folders/1GurGiMvdZ1Zi1lLEbstpSEMt_BC9MKAl?usp=drive_link" },
+          { grado: "11°", profesor: "David Zuluaga Castrillon", drive: "https://drive.google.com/drive/folders/1_5zlo5oRHNIb4SHjAEmF6hfHLJWq32lc?usp=drive_link" }
         ]
       },
       {
