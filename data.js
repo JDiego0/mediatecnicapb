@@ -29,7 +29,7 @@ const programas = {
   //  DISEÑO Y ARTE GRÁFICO
   // ──────────────────────────────────────────────
   arte: {
-    titulo: "DISEÑO Y ARTE GRÁFICO",
+    titulo: "🖌️ Diseño y Arte Gráfico",
     instituciones: [
       {
         nombre: "Bello Horizonte",
@@ -184,7 +184,7 @@ const programas = {
   //  ELECTRICIDAD
   // ──────────────────────────────────────────────
   electricidad: {
-    titulo: "ELECTRICIDAD",
+    titulo: "⚡ Electricidad",
     instituciones: [
       {
         nombre: "Concejo De Medellin",
@@ -228,7 +228,7 @@ const programas = {
   //  MANTENIMIENTO ELECTROMECÁNICO INDUSTRIAL
   // ──────────────────────────────────────────────
   electromecanico: {
-    titulo: "MANTENIMIENTO ELECTROMECÁNICO INDUSTRIAL",
+    titulo: "⚙️ Mantenimiento Electromecánico Industrial",
     instituciones: [
       {
         nombre: "Inem Jose Felix De Resrepo",
@@ -251,7 +251,7 @@ const programas = {
   //  LOGÍSTICA DE CENTROS DE DISTRIBUCIÓN
   // ──────────────────────────────────────────────
   logistica: {
-    titulo: "LOGÍSTICA DE CENTROS DE DISTRIBUCIÓN",
+    titulo: "🚚 Logística de Centros de Distribución",
     instituciones: [
       {
         nombre: "El Corazon",
@@ -287,7 +287,7 @@ const programas = {
   //  MANTENIMIENTO DE MOTOCICLETAS
   // ──────────────────────────────────────────────
   motos: {
-    titulo: "MANTENIMIENTO DE MOTOCICLETAS",
+    titulo: "🏍️ Mantenimiento de Motocicletas",
     instituciones: [
       {
         nombre: "Bello Oriente",
