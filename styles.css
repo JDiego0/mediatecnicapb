@@ -698,7 +698,7 @@ h1, h2, h3, h4 {
    RESPONSIVE
 ══════════════════════════════════════════ */
 @media (max-width: 880px) {
-  html, body { overflow: auto; height: auto; }
+  html, body { overflow: auto; height: auto; background-image: none; background-color: #2a5070;}
   .layout { flex-direction: column; min-height: auto; }
   .sidebar {
     width: 100%;
