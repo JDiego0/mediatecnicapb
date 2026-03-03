@@ -269,8 +269,8 @@ const programas = {
       {
         nombre: "Presbitero Carlos Alberto Calderon",
         grados: [
-          { grado: "10°", profesor: "Carlos Mario Avila", drive: "https://drive.google.com/drive/folders/1YwL98JvmzgJVV3vsoNsRoTtUwbsv3xtV?usp=drive_link" },
-          { grado: "11°", profesor: "Cristian Camilo Valencia", drive: "https://drive.google.com/drive/folders/14-QxDzTx54GBlfGemu5akqbpIOPem716?usp=drive_link" }
+          { grado: "10°", profesor: "Cristian Camilo Valencia", drive: "https://drive.google.com/drive/folders/1YwL98JvmzgJVV3vsoNsRoTtUwbsv3xtV?usp=drive_link" },
+          { grado: "11°", profesor: "Carlos Mario Avila", drive: "https://drive.google.com/drive/folders/14-QxDzTx54GBlfGemu5akqbpIOPem716?usp=drive_link" }
         ]
       },
       {
