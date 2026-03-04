@@ -333,9 +333,5 @@ const instructivos = [
   {
     titulo: "Elaboración del informe clase a clase",
     link: "https://share.vidyard.com/watch/HHbQ95XMeHxnZznuMqmEPR"
-  },
-  {
-    titulo: "Plan de mejoramiento",
-    link: "https://share.vidyard.com/watch/pr52rA5nh5KHxLU7yrLkaU"
   }
 ];
