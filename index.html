@@ -67,6 +67,13 @@
           📁 FORMATOS
         </button>
       </div>
+
+      <div class="sidebar-bottom">
+        <button class="btn-secondary" onclick="showInstructivos()">
+          ⏯️ INSTRUCTIVOS
+        </button>
+      </div>
+
     </aside>
 
     <!-- MAIN -->
@@ -120,6 +127,15 @@
             </table>
           </div>
         </div>
+      </section>
+
+      <!-- Sección Instructivos -->
+      <section class="instructivos-section hidden" id="instructivosSection">
+        <div class="section-header">
+          <h3 class="section-title">⏯️ Instructivos</h3>
+          <span class="section-badge" id="instructivosBadge"></span>
+        </div>
+        <ul class="institutions-list" id="instructivosList"></ul>
       </section>
 
     </main>

@@ -320,3 +320,22 @@ const programas = {
   }
 
 };
+
+const instructivos = [
+  {
+    titulo: "Actualizacion Calificaciones SAPE",
+    link: "https://www.youtube.com/watch?v=glNJ0dLAAb4"
+  },
+  {
+    titulo: "Toma de asistencia",
+    link: "https://share.vidyard.com/watch/pr52rA5nh5KHxLU7yrLkaU"
+  },
+  {
+    titulo: "Elaboración del informe clase a clase",
+    link: "https://share.vidyard.com/watch/HHbQ95XMeHxnZznuMqmEPR"
+  },
+  {
+    titulo: "Plan de mejoramiento",
+    link: "https://share.vidyard.com/watch/pr52rA5nh5KHxLU7yrLkaU"
+  }
+];

@@ -7,21 +7,25 @@
  */
 
 // ─── Estado ───────────────────────────────────────────────
-let currentProgram   = null;
+let currentProgram = null;
 let currentInstitution = null;
 
 // ─── Referencias DOM ──────────────────────────────────────
-const introSection        = document.getElementById('introSection');
+const introSection = document.getElementById('introSection');
 const institutionsSection = document.getElementById('institutionsSection');
-const detailSection       = document.getElementById('detailSection');
-const institutionsList    = document.getElementById('institutionsList');
-const detailTableBody     = document.getElementById('detailTableBody');
-const institutionName     = document.getElementById('institutionName');
-const programTitle        = document.getElementById('programTitle');
-const countBadge          = document.getElementById('countBadge');
-const searchInput         = document.getElementById('searchInput');
-const emptyMsg            = document.getElementById('emptyMsg');
-const clearSearchBtn      = document.getElementById('clearSearch');
+const detailSection = document.getElementById('detailSection');
+const institutionsList = document.getElementById('institutionsList');
+const detailTableBody = document.getElementById('detailTableBody');
+const institutionName = document.getElementById('institutionName');
+const programTitle = document.getElementById('programTitle');
+const countBadge = document.getElementById('countBadge');
+const searchInput = document.getElementById('searchInput');
+const emptyMsg = document.getElementById('emptyMsg');
+const clearSearchBtn = document.getElementById('clearSearch');
+const instructivosSection = document.getElementById('instructivosSection');
+const instructivosList = document.getElementById('instructivosList');
+const instructivosBadge = document.getElementById('instructivosBadge');
+
 
 // ─── Navegación de programas ──────────────────────────────
 document.querySelectorAll('.nav-btn').forEach(btn => {
@@ -33,7 +37,7 @@ document.querySelectorAll('.nav-btn').forEach(btn => {
     document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
 
-    currentProgram    = key;
+    currentProgram = key;
     currentInstitution = null;
 
     searchInput.value = '';
@@ -134,6 +138,43 @@ function showDetail(inst) {
 function goBack() {
   detailSection.classList.add('hidden');
   institutionsSection.classList.remove('hidden');
+}
+
+function showInstructivos() {
+  document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+  currentProgram = null;
+  currentInstitution = null;
+  searchInput.value = '';
+
+  introSection.classList.add('hidden');
+  institutionsSection.classList.add('hidden');
+  detailSection.classList.add('hidden');
+
+  instructivosList.innerHTML = '';
+  instructivosBadge.textContent = instructivos.length + ' videos';
+
+  instructivos.forEach((item, i) => {
+    const li = document.createElement('li');
+    li.className = 'institution-item';
+    li.style.animationDelay = (i * 0.05) + 's';
+    li.style.cursor = 'pointer';
+    li.innerHTML = `
+      <div class="inst-icon">▶️</div>
+      <span class="inst-name">${item.titulo}</span>
+    `;
+    li.addEventListener('click', () => {
+      const a = document.createElement('a');
+      a.href = item.link;
+      a.target = '_blank';
+      a.rel = 'noreferrer noopener';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    });
+    instructivosList.appendChild(li);
+  });
+
+  instructivosSection.classList.remove('hidden');
 }
 
 // ─── Init ─────────────────────────────────────────────────
