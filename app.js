@@ -159,7 +159,7 @@ function showInstructivos() {
     li.style.animationDelay = (i * 0.05) + 's';
     li.style.cursor = 'pointer';
     li.innerHTML = `
-      <div class="inst-icon">▶️</div>
+      <div class="inst-icon">📜</div>
       <span class="inst-name">${item.titulo}</span>
     `;
     li.addEventListener('click', () => {
