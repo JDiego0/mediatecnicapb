@@ -54,6 +54,8 @@ function showInstitutions(key) {
 
   introSection.classList.add('hidden');
   detailSection.classList.add('hidden');
+  instructivosSection.classList.add('hidden');
+  instructivosSection.style.display = 'none';
   institutionsSection.classList.remove('hidden');
 }
 
@@ -137,6 +139,8 @@ function showDetail(inst) {
 // ─── Volver a la lista ────────────────────────────────────
 function goBack() {
   detailSection.classList.add('hidden');
+  instructivosSection.classList.add('hidden');
+  instructivosSection.style.display = 'none';
   institutionsSection.classList.remove('hidden');
 }
 
@@ -145,6 +149,7 @@ function showInstructivos() {
   currentProgram = null;
   currentInstitution = null;
   searchInput.value = '';
+  programTitle.textContent = ''; 
 
   introSection.classList.add('hidden');
   institutionsSection.classList.add('hidden');
@@ -175,6 +180,7 @@ function showInstructivos() {
   });
 
   instructivosSection.classList.remove('hidden');
+  instructivosSection.style.display = ''; 
 }
 
 // ─── Init ─────────────────────────────────────────────────
