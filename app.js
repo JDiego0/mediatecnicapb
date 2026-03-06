@@ -156,7 +156,7 @@ function showInstructivos() {
   detailSection.classList.add('hidden');
 
   instructivosList.innerHTML = '';
-  instructivosBadge.textContent = instructivos.length + ' videos';
+  instructivosBadge.textContent = instructivos.length + ' items';
 
   instructivos.forEach((item, i) => {
     const li = document.createElement('li');
@@ -164,7 +164,6 @@ function showInstructivos() {
     li.style.animationDelay = (i * 0.05) + 's';
     li.style.cursor = 'pointer';
     li.innerHTML = `
-      <div class="inst-icon">📜</div>
       <span class="inst-name">${item.titulo}</span>
     `;
     li.addEventListener('click', () => {

@@ -323,19 +323,23 @@ const programas = {
 
 const instructivos = [
   {
-    titulo: "Actualizacion Calificaciones SAPE",
+    titulo: "▶️ Actualizacion Calificaciones SAPE",
     link: "https://www.youtube.com/watch?v=glNJ0dLAAb4"
   },
   {
-    titulo: "Toma de asistencia",
+    titulo: "▶️ Toma de asistencia",
     link: "https://share.vidyard.com/watch/pr52rA5nh5KHxLU7yrLkaU"
   },
   {
-    titulo: "Elaboración del informe clase a clase",
+    titulo: "▶️ Elaboración del informe clase a clase",
     link: "https://share.vidyard.com/watch/HHbQ95XMeHxnZznuMqmEPR"
   },
   {
-    titulo:"Instrucciones plan de mejoramiento",
+    titulo:"⬇️ Instrucciones plan de mejoramiento",
     link: "./docs/Instrucciones_Plan_Mejoramiento.pdf"
+  },
+  {
+    titulo:"⬇️ Entrega de informes y anexos",
+    link:"./docs/cronograma_primer_periodo.xls"
   }
 ];
