@@ -306,7 +306,7 @@ const programas = {
       {
         nombre: "José Antonio Galan",
         grados: [
-          { grado: "11°", profesor: "Sin Asignar", drive: "https://drive.google.com/drive/folders/1rb3gpEO1hBjb5P4zWaFMzVUAFwiM74jZ?usp=drive_link" }
+          { grado: "11°", profesor: "Juan Esteban Madrid", drive: "https://drive.google.com/drive/folders/1rb3gpEO1hBjb5P4zWaFMzVUAFwiM74jZ?usp=drive_link" }
         ]
       },
       {
