@@ -335,6 +335,10 @@ const instructivos = [
     link: "https://share.vidyard.com/watch/HHbQ95XMeHxnZznuMqmEPR"
   },
   {
+    titulo: "▶️ Reunión 2026/04/23: Metodología P.I.A. y modulo de calificaciones SAPE",
+    link: "https://drive.google.com/file/d/1_lY_7gxqkZqOz3QWTgIC_5H2Ton7nB_K/view?usp=sharing"
+  },
+  {
     titulo:"⬇️ Instrucciones plan de mejoramiento",
     link: "./docs/Instrucciones_Plan_Mejoramiento.pdf"
   },
